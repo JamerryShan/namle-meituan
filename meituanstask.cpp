@@ -118,7 +118,7 @@ void game()
 	int i;
 	if (host_sum <= 18)
 	{
-		int k = 3;
+		int k = 2;
 		for (i = 4; i <= 16 && host_sum <= 18; i++)
 		{
 			host[k] = cards[i];
@@ -167,7 +167,7 @@ void game()
 						exit(0);
 					}
 				}
-				end:break;
+				break;
 			default:
 				if (choice != 'y' || choice != 'n')
 				{
